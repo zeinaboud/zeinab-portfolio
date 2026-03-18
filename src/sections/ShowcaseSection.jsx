@@ -48,36 +48,45 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
+            <a href="https://hotel-booking-nextjs16.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="image-wrapper">
+                 <img src="/images/project1.png" alt="Ryde App Interface" />
+              </div>
+            </a>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+              UAE Hotel Booking
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A modern hotel booking website designed for the UAE market.
+The platform allows users to search for hotels, view available rooms, book their stay, and complete secure online payments easily through a smooth and user-friendly interface.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>The Library Management Platform</h2>
+              <a href="https://zeinaboud.github.io/perfumes-store/#/" target="_blank" rel="noopener noreferrer">
+                <div className="image-wrapper bg-[#FFEFDB]">
+                  <img
+                    src="/images/project2.png"
+                    alt="Library Management Platform"
+                  />
+                </div>
+              </a>
+              <h2>Perfume Store</h2>
+              <p> A modern e-commerce platform for purchasing perfumes online.Users can browse products, view details, add items to the cart, and complete secure online payments through a smooth and intuitive interface</p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
+              <a href="https://yz-directory.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <div className="image-wrapper bg-[#FFE7EB]">
+                  <img src="/images/project3.png" alt="YC Directory App" />
+                </div>
+              </a>
               <h2>YC Directory - A Startup Showcase App</h2>
             </div>
           </div>

@@ -1,7 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
@@ -18,7 +17,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg.png" alt="" />
+        <img src="/images/herobg.png" alt="" />
       </div>
 
       <div className="hero-layout">
@@ -51,7 +50,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
+              Hi, I’m Zeinab, a computer engineer with a passion for
               code.
             </p>
 
@@ -71,7 +70,7 @@ const Hero = () => {
         </figure>
       </div>
 
-      <AnimatedCounter />
+      
     </section>
   );
 };

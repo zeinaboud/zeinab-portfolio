@@ -105,9 +105,6 @@ const Experience = () => {
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
-                    <div>
-                      <img src={card.imgPath} alt="exp-img" />
-                    </div>
                   </GlowCard>
                 </div>
                 <div className="xl:w-4/6">
@@ -122,9 +119,7 @@ const Experience = () => {
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
-                        <p className="my-5 text-white-50">
-                          🗓️&nbsp;{card.date}
-                        </p>
+                       
                         <p className="text-[#839CB5] italic">
                           Responsibilities
                         </p>
