@@ -209,18 +209,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://instagram.com/yourusername",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link: "https://instagram.com/yourusername",
   },
   {
-    name: "x",
+    name: "Github",
     imgPath: "/images/x.png",
+    link: "https://github.com/zeinaboud",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/zeinab-oudaimah-0a37263b3",
   },
 ];
 
