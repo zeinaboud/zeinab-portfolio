@@ -142,24 +142,37 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Zeinab brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:"kuwaitNet - Remote",
     logoPath:"/public/images/logo1.jfif",
-    title: "Frontend Developer",
+    title: "Full Stack Web Developer",
     responsibilities: [
-      "Developed and maintained user-facing features for the vercel website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      " Built scalable enterprise applications using React, Next.js, and TypeScript",
+      "Developed APIs, authentication systems, and database solutions using Node.js, Prisma, and PostgreSQL.",
+      "Implemented Stripe payments and optimized application performance.",
+      "Integrated AI-powered features and automation workflows."
     ],
   },
   {
-    review: "Zeinab’s contributions to fullstack  web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    title: "Full Stack Developer",
-      logoPath:"/public/images/logos/logo2.png",
+    review:"LifeSmile -  Dubai,UAE",
+    title: "Full Stack Engineer",
+      logoPath:"/public/images/logos/nest4.jfif",
     
     responsibilities: [
-      "Led the development of cms  web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Implemented responsive design principles to ensure optimal user experience across devices.",
+      "Developed and maintained e-commerce features using React, Next.js, TypeScript, and Node.js.",
+      "Improved checkout flows and integrated Stripe payment solutions.",
+      "Built reusable components and optimized frontend performance.",
+      "Worked with existing production systems in an Agile environment."
+    ],
+  },
+  
+  {
+    review: "Yehia Najib Establishment - Syria",
+    title: "Frontend Web Engineer",
+      logoPath:"/public/images/logos/logo2.png",
+    responsibilities: [
+      "Built responsive web interfaces using Vue.js, JavaScript, HTML5, and CSS3.",
+      "Improved UI components and enhanced maintainability.",
+      "Collaborated with design and QA teams to deliver quality features.",
     ],
   }
 ];
@@ -218,7 +231,7 @@ const socialImgs = [
   },
   {
     name: "Github",
-    imgPath: "/images/x.png",
+    imgPath: "/images/chatgpt2.png",
     link: "https://github.com/zeinaboud",
   },
   {
